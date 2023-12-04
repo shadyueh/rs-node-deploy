@@ -1,0 +1,10 @@
+//// ------------------------------------------------------
+//// THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+//// ------------------------------------------------------
+
+Table User {
+  id String [pk]
+  name String [not null]
+  email String [not null]
+  created_at DateTime [default: `now()`, not null]
+}
